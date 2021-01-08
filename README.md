@@ -1,5 +1,8 @@
 # Lachesis in Docker
 
+(Lachesis)[https://github.com/shendurelab/LACHESIS] was the first Hi-C assembler and is widely cited. However it has not been maintained and is quite challenging to install. Forked from zitsen, this repo fleshes out the details to help make a docker container a stand-in exectuable for Lachesis. 
+
+
 ## Usage
 
 ```
