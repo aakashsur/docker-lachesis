@@ -16,4 +16,9 @@ I haven't bothered installing R which is needed for drawing the heatmaps since I
 docker build -t username/lachesis:latest .
 ```
 
+For running in an HPC setting, where singularity is often the choice of containerization. 
 
+```
+singularity pull docker://aakashsur/lachesis
+singularity run --bind $PWD:/root/ lachesis_latest.sif yeast.ini
+```
