@@ -20,5 +20,5 @@ For running in an HPC setting, where singularity is often the choice of containe
 
 ```
 singularity pull docker://aakashsur/lachesis
-singularity run --bind $PWD:/root/ lachesis_latest.sif yeast.ini
+singularity run --bind $PWD:/root/ lachesis_latest.sif /root/configuration.ini
 ```
