@@ -5,8 +5,16 @@ COPY lachesis.tar.gz /lachesis.tar.gz
 # Requirements
 RUN export DEBIAN_FRONTEND=noninteractive \
   && apt update \
-  && apt install -y apt-utils build-essential autoconf wget zlib1g-dev libncurses-dev  \
-    libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev \
+  && apt install -y \
+    apt-utils \
+    build-essential \
+    autoconf \
+    wget \
+    zlib1g-dev \
+    libncurses-dev \
+    libboost-filesystem-dev \
+    libboost-program-options-dev \
+    libboost-thread-dev \
     libboost-regex-dev \
   && apt clean
 
